@@ -56,7 +56,7 @@
                             <div class="input-field col s12">
                                 <!-- <input type="text" name="task-name" id="task-id" class="validate" requiamber> -->
                                 <!-- <label for="name">Task Status</label> -->
-                                <select>
+                                <select name="task-status">
                                     <option class="amber darken-4" value="Pending">Pending</option>
                                     <option class="amber darken-4" value="Started">Started</option>
                                     <option class="amber darken-4" value="Completed">Completed</option>
