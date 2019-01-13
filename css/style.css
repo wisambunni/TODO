@@ -32,6 +32,10 @@
     right: 50px;
 }
 
+tbody tr > *:nth-child(1) {
+    display: none;
+}
+
 .modal {
     max-height: 90%;
     max-width: 20%;
