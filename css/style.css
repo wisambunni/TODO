@@ -1,0 +1,42 @@
+/* label color */
+.input-field label {
+
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus + label {
+    color: #03a9f4 !important;
+}
+
+/* valid color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #03a9f4 !important;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #ff0000;
+}
+
+.input-field select {
+    color: #ff6f00 !important;
+}
+
+.modal-footer input[type=submit] {
+    background-color: #ff6f00;
+    color: #fff;
+}
+
+/* Anchor the action button to bottom right */
+.fixed-action-btn {
+    right: 50px;
+}
+
+.modal {
+    max-height: 90%;
+    max-width: 20%;
+}
+
+.modal-form-row {
+    margin-bottom: 0px;
+}
