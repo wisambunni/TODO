@@ -54,9 +54,9 @@
                         <div class="row modal-form-row">
                             <div class="input-field col s12">
                                 <select name="task-status">
-                                    <option class="amber darken-4" value="Pending">Pending</option>
-                                    <option class="amber darken-4" value="Started">Started</option>
-                                    <option class="amber darken-4" value="Completed">Completed</option>
+                                    <option value="Pending">Pending</option>
+                                    <option value="Started">Started</option>
+                                    <option value="Completed">Completed</option>
                                 </select>
                                 <label>Status</label>
                             </div>
@@ -73,7 +73,7 @@
 
         <div id="edit-task-modal" class="modal">
             <div class="modal-content">
-                <h4>Add a Task</h4>
+                <h4>Edit Task</h4>
                 <div class="row">
                     <form action="php/edit_task.php" method="post" id="task-edit-form" class="col s12">
 
