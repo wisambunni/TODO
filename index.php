@@ -75,7 +75,7 @@
             <div class="modal-content">
                 <h4>Add a Task</h4>
                 <div class="row">
-                    <form action="php/edit_task.php" method="post" id="task-add-form" class="col s12">
+                    <form action="php/edit_task.php" method="post" id="task-edit-form" class="col s12">
 
                         <div class="row modal-form-row">
                             <div class="input-field col s12">
