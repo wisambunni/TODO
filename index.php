@@ -47,15 +47,21 @@
 
                         <div class="row modal-form-row">
                             <div class="input-field col s12">
-                                <input type="text" name="task-name" id="task-id" class="validate" requiamber>
+                                <input type="text" name="task-name" id="task-id" class="validate" required>
                                 <label for="name">Task Name</label>
                             </div>
                         </div>
 
                         <div class="row modal-form-row">
                             <div class="input-field col s12">
-                                <input type="text" name="task-name" id="task-id" class="validate" requiamber>
-                                <label for="name">Task Status</label>
+                                <!-- <input type="text" name="task-name" id="task-id" class="validate" requiamber> -->
+                                <!-- <label for="name">Task Status</label> -->
+                                <select>
+                                    <option class="amber darken-4" value="Pending">Pending</option>
+                                    <option class="amber darken-4" value="Started">Started</option>
+                                    <option class="amber darken-4" value="Completed">Completed</option>
+                                </select>
+                                <label>Status</label>
                             </div>
                         </div>
 
