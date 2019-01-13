@@ -14,7 +14,7 @@
 
             <div class="container">
                 <div id="content" class="col s12">
-                    <table class="centeamber">
+                    <table class="center">
                         <thead>
                             <tr>
                                 <th>Task</th>
@@ -25,7 +25,7 @@
                         </thead>
 
                         <tbody>
-                        <!-- TODO: Include a PHP script that gets all the elements in todo database -->
+                            <?php include('php/get_task.php'); ?>
                         </tbody>
                     </table>
                 </div>
